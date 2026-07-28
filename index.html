@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Apple Checkout</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+    <header class="hero">
+
+        <div class="overlay">
+
+            <h1>Checkout</h1>
+
+            <span class="cart-badge">
+                3 ITEMS
+            </span>
+
+        </div>
+
+    </header>
+
+
+    <main class="checkout-container">
+
+
+        <section class="cart-section">
+
+
+            <article class="product">
+
+                <div class="product-image">
+
+                    <img
+                        src="images/Gold.png"
+                        alt="iPhone 12 Pro">
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>iPhone 12 Pro</h3>
+
+                    <p>Golden</p>
+
+                    <span>x 1</span>
+
+                </div>
+
+                <div class="product-price">
+
+                    <h3>$999.00</h3>
+
+                    <button
+                        class="remove-btn"
+                        aria-label="Remove iPhone">
+
+                        ×
+
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <article class="product">
+
+                <div class="product-image">
+
+                    <img
+                        src="images/Apple-watch.png"
+                        alt="Apple Watch">
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Apple Watch</h3>
+
+                    <p>Blue</p>
+
+                    <span>x 1</span>
+
+                </div>
+
+                <div class="product-price">
+
+                    <h3>$399.00</h3>
+
+                    <button
+                        class="remove-btn"
+                        aria-label="Remove Watch">
+
+                        ×
+
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <article class="product">
+
+                <div class="product-image">
+
+                    <img
+                        src="images/imac.png"
+                        alt="iMac">
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>iMac</h3>
+
+                    <p>Green</p>
+
+                    <span>x 1</span>
+
+                </div>
+
+                <div class="product-price">
+
+                    <h3>$1199.00</h3>
+
+                    <button
+                        class="remove-btn"
+                        aria-label="Remove iMac">
+
+                        ×
+
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <div class="coupon-section">
+
+                <input
+                    type="text"
+                    placeholder="Enter coupon code"
+                    aria-label="Coupon Code">
+
+                <button>
+
+                    Apply Coupon
+
+                </button>
+
+            </div>
+
+
+            <div class="totals">
+
+                <div class="total-row">
+
+                    <span>Sub total</span>
+
+                    <span>$2597.00</span>
+
+                </div>
+
+                <div class="total-row">
+
+                    <span>Tax</span>
+
+                    <span>$623.28</span>
+
+                </div>
+
+                <div class="total-row final-total">
+
+                    <span>Total</span>
+
+                    <span>$3220.28</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="contact-section">
+
+            <h2>Contact Information</h2>
+
+            <form action="#">
+
+
+                <div class="form-group">
+
+                    <label for="fullname">
+
+                        First & Last name
+
+                    </label>
+
+                    <input
+                        type="text"
+                        id="fullname"
+                        placeholder="Enter first & last name"
+                        required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+
+                        Email Address
+
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter email address"
+                        required>
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="country">
+
+                            Country
+
+                        </label>
+
+                        <select id="country">
+
+                            <option>Finland</option>
+                            <option>United States</option>
+                            <option>United Kingdom</option>
+                            <option>Canada</option>
+                            <option>Nigeria</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="postal">
+
+                            Postal Code
+
+                        </label>
+
+                        <input
+                            type="text"
+                            id="postal"
+                            value="00270"
+                            required>
+
+                    </div>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="continue-btn">
+
+                    Continue
+
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
